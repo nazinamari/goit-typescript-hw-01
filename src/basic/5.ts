@@ -15,3 +15,4 @@ const isWeekend = (day: DayOfWeek): boolean => {
 console.log(isWeekend(DayOfWeek.Monday));
 console.log(isWeekend(DayOfWeek.Sunday));
 console.log(isWeekend(DayOfWeek.Thursday));
+€

@@ -9,6 +9,7 @@
 		"preview": "vite preview"
 	},
 	"devDependencies": {
+		"@types/axios": "^0.14.0",
 		"typescript": "^5.5.4",
 		"vite": "^5.3.4"
 	}
