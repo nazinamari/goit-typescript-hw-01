@@ -7,5 +7,3 @@ const callback = (a: number): number => {
 };
 
 console.log(age, username, toggle, empty, callback);
-
-export {};

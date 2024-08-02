@@ -1,11 +1,13 @@
 let value: string | number;
 
-value = 'Hello';
-value = 42;
-
 let status: 'enable' | 'disable';
 
+value = 'Hello';
 status = 'enable';
+
+console.log(value, status);
+
+value = 42;
 status = 'disable';
 
-export {};
+console.log((value = 42), (status = 'disable'));

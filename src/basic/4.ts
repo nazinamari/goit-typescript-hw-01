@@ -10,4 +10,6 @@ function customError(): never {
 	throw new Error('Error');
 }
 
-export {};
+showMessage('Hello');
+calc(1, 2);
+customError();

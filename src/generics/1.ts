@@ -9,4 +9,6 @@ async function fetchData(url: string): Promise<any> {
 	}
 }
 
-export {};
+fetchData('https://jsonplaceholder.typicode.com/todos/1')
+	.then((data) => console.log(data))
+	.catch((error) => console.error(error.message));
