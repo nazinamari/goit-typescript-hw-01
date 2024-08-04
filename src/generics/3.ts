@@ -13,5 +13,5 @@ function merge<T, U>(objA: T, objB: U): T & U {
 const objA: Person = { name: 'Alice' };
 const objB: Age = { age: 30 };
 
-const mergedObj = merge(objA, objB);
+const mergedObj = merge(objA, objB) as Person & Age;
 console.log(mergedObj);
